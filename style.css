@@ -1,0 +1,282 @@
+
+/* start global  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana,sans-serif;
+    scroll-behavior: smooth;
+}
+
+.main-container {
+    width: 90%;
+    margin: auto;
+    /* background-color: #e9dfdf; */
+}
+
+.h2-main {
+    font-size: 42px;
+    margin: 25px 0;
+    color: #f44336;
+}
+
+.hr-main {
+    width: 50px;
+    border: 5px solid #f44336;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.clear {
+    clear: both;
+}
+
+.main-sec {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 85px;
+    padding-top: 10px;
+}
+
+.main-sec p {
+    margin: 16px 0;
+    line-height: 1.4;
+}
+
+.main-sec-img-8px {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.main-sec-img-8px .div-border {
+    margin: 8px 8px 0;
+}
+/* end global  */
+
+/* start navbar */
+.nav {
+    float: left;
+    width: 20%;
+    height: 100vh;
+    background-color: #f44336;
+    position: sticky;
+    left: 0;
+    top: 0;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.nav .nav-container {
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.nav h3 {
+    font-size: 22px;
+    margin: 100px 0 50px;
+    line-height: 1.6;
+    padding-left: 12px;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 12px 10px;
+}
+
+.nav ul li:hover,
+.nav ul li:hover a{
+    background-color: white;
+    color: black;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+}
+/* end navbar */
+
+/* start main section */
+.main {
+    float: left;
+    width: 80%;
+}
+
+/* start header */
+.header {
+    margin: 85px 0px 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+/* end header  */
+
+/* start Showcase */
+.Showcase .img {
+    width: 50%;
+    float: left;
+}
+
+.Showcase img {
+    width: 100%;
+    height: 450px;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Showcase img:hover {
+    opacity: 1;
+}
+/* end Showcase */
+
+/* start Designers */
+.designers .row .col-3 {
+    float: left;
+    width: calc(100% / 3);
+}
+
+.designers .row .div-border {
+    background-color: #f1f1f1;
+    padding-bottom: 16px;
+}
+
+.designers .row .col-3 img {
+    width: 100%;
+    filter:grayscale(1);
+    transition: 0.4s;
+}
+
+.designers .row .col-3 img:hover {
+    filter: none;
+}
+
+.designers .div-border h3,
+.designers .div-border .opacity,
+.designers .div-border p {
+    margin: 16px 0;
+    padding: 0 15px;
+}
+
+.designers .div-border .opacity {
+    opacity: 0.66;
+}
+/* end Designers */
+
+/* start Packages */
+.packages .col-2 {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.packages .col-2 ul {
+    list-style: none;
+    background-color: #f1f1f1;
+}
+
+.packages .col-2 .dark {
+    background-color: darkgray;
+    padding: 35px;
+    color: white;
+}
+
+.packages .col-2 .red {
+    background-color: #f44336;
+    padding: 35px;
+    color: white;
+}
+.packages .col-2 li {
+    padding: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.packages .btn-1{
+    border: none;
+    font-size: 16px;
+    padding: 12px 24px;
+    background-color: white;
+}
+
+.packages .btn-2 {
+    border: none;
+    font-size: 16px;
+    padding: 12px 24px;
+    background-color: #f44336;
+    color: white;
+}
+
+.packages .btn-2:hover,
+.packages .btn-1:hover {
+    background-color: black;
+    color: white;
+}
+/* end Packages */
+
+/* start contact */
+.contact form .inp-group {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.contact form input {
+    width: calc(100% - 18px);
+    margin-top: 5px;
+    border:1px solid #ccc;
+    padding: 8px;
+}
+
+.contact form .btn-form1 {
+    font-size: 18px;
+    padding: 10px 0;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    text-align: center;
+}
+
+.contact form .btn-form1:hover {
+    background-color: #ccc;
+    color: black;
+}
+/* end contact */
+
+/* end main section */
+
+/* start footer */
+.footer {
+    color: #000;
+    background-color: #f1f1f1;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 90px;
+}
+
+.footer p {
+    position: absolute;
+    right: calc(16px + 47.5px);
+}
+.footer a {
+    color: #000;
+}
+
+.footer a:hover {
+    opacity:0.60;
+}
+/* end footer */
